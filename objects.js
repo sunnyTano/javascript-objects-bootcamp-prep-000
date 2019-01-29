@@ -8,20 +8,7 @@ function updatePlaylist(playlist, artistName, songTitle){
 }
 
 /*
-describe('objects', () => {
-  const babelResult = babel.transformFileSync(
-    path.resolve(__dirname, '..', 'objects.js'), {
-      presets: ['es2015']
-    }
-  )
-  jsdom({
-    src: babelResult.code
-  })
 
-  it('defines an object called `playlist` containing at least one artist-song pair', () => {
-    expect(typeof playlist).to.equal('object')
-    expect(Object.keys(playlist).length).to.be.greaterThan(0)
-  })
 
   describe('updatePlaylist(playlist, artistName, songTitle)', () => {
     before(() => {
